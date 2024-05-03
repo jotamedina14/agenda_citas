@@ -1,0 +1,121 @@
+#Agregar {
+    border: 1px solid black;
+    padding: 20px;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    transition: transform 0.5s ease;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Cambio de color de fondo del formulario */
+  }
+  
+  .input-wrapper input {
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px; /* Añadido margen inferior */
+  }
+  
+  .input-wrapper select {
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 10px; /* Añadido margen inferior */
+  }
+  
+  .atributo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .atributo img {
+    margin-right: 10px;
+    max-width: 50px; /* Reducción del tamaño de los iconos */
+    flex: 0 0 auto;
+  }
+  
+  .agendar {
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    margin: 20px;
+    color: rgb(0, 30, 226);
+    font-size: 2.5em;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  #filtrar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding: 20px;
+  }
+  
+  .botones {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    display: none;
+  }
+  
+  #btnguardar {
+    margin: 15px auto 10px auto;
+    display: block;
+    background-color: #7a3ab9; /* Cambio de color del botón a morado */
+    border: none;
+    color: white; /* Cambio de color de texto a blanco */
+  }
+  
+  #btnguardar:hover {
+    background-color: #5e2e93; /* Cambio de color del botón al pasar el ratón a un tono más oscuro de morado */
+  }
+  
+  #opciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  
+  #divBtn {
+    padding: 0;
+  }
+  
+  #cont {
+    max-height: 99vh;
+    overflow-y: auto;
+  }
+  
+  .inf img,
+  .horario img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .sintomas {
+    width: calc(100% - 16px); /* Ajuste para mantener el mismo ancho */
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+  }
+  .card img {
+    max-width: 80px; /* Reducción del tamaño máximo de la imagen */
+    height: auto; /* Mantener la proporción de aspecto */
+    margin-bottom: 10px;
+  }
+  
